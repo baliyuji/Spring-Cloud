@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aced742-9f1d-468f-9941-83d736d5bae1" name="Default Changelist" comment="" />
+    <list default="true" id="5aced742-9f1d-468f-9941-83d736d5bae1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +25,7 @@
     <select />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring-Cloud" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -146,7 +149,8 @@
       <workItem from="1586010225554" duration="2472000" />
       <workItem from="1586048749028" duration="5365000" />
       <workItem from="1586179578748" duration="433000" />
-      <workItem from="1586180636099" duration="586000" />
+      <workItem from="1586180636099" duration="937000" />
+      <workItem from="1586182546063" duration="8000" />
     </task>
     <servers />
   </component>
