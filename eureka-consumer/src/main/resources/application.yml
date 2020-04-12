@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consumer
+server:
+  port: 9000
+eureka:
+  client:
+    #声明自己是服务端  # 表示是否注册自身到eureka服务器
+    #registerWithEureka: false
+    # 是否从eureka上获取注册信息
+    #fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/
+

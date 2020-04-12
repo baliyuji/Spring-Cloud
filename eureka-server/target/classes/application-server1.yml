@@ -12,7 +12,6 @@ server:
 eureka:
   instance:
     hostname: server1
-    #appname: euk1.com
   client:
     #声明自己是服务端  # 表示是否注册自身到eureka服务器
     #registerWithEureka: false

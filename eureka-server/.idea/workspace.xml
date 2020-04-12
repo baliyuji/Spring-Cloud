@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aced742-9f1d-468f-9941-83d736d5bae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-server1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-server3.yml" afterDir="false" />
+    <list default="true" id="5aced742-9f1d-468f-9941-83d736d5bae1" name="Default Changelist" comment="up">
+      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/src/main/java/com/wukeji/eurekaconsumer/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-server2.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-server1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-server1.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-04-05T09-17-06_653-jvmRun1.dump" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wukeji.eurekaserver.EurekaServerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wukeji.eurekaserver.EurekaServerApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.wukeji.eurekaserver.EurekaServerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.wukeji.eurekaserver.EurekaServerApplicationTests.txt" afterDir="false" />
     </list>
@@ -31,6 +43,13 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -65,16 +84,24 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wukeji.eurekaprovider" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wukeji.eurekaconsumer.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -85,7 +112,15 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.8763">
+  <component name="RunManager" selected="Spring Boot.Consumer">
+    <configuration name="All in eureka-provider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="8761" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wukeji.eurekaserver.EurekaServerApplication" />
@@ -116,6 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="eureka-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wukeji.eurekaconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wukeji.eurekaconsumer.EurekaConsumerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wukeji.eurekaserver.EurekaServerApplication" />
@@ -125,27 +174,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wukeji.eurekaprovider.EurekaProviderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JUnit.All in eureka-provider" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.8761" />
       <item itemvalue="Spring Boot.8762" />
       <item itemvalue="Spring Boot.8763" />
+      <item itemvalue="Spring Boot.Provider" />
+      <item itemvalue="Spring Boot.Consumer" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Consumer" />
+        <item itemvalue="JUnit.All in eureka-provider" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.23325808" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -180,6 +243,7 @@
       <workItem from="1586442329060" duration="1516000" />
       <workItem from="1586472123659" duration="2649000" />
       <workItem from="1586687026993" duration="1551000" />
+      <workItem from="1586696129355" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1586182580329</created>
@@ -188,86 +252,128 @@
       <option name="project" value="LOCAL" />
       <updated>1586182580329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加服务提供者">
+      <created>1586694999956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586694999956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="添加服务提供者" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加服务提供者" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="88" key="#Project_Structure" timestamp="1586182608827">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="320" y="88" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1586182608827" />
-    <state x="81" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586688207704">
+    <state x="211" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586696538209">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="81" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1586688207704" />
+    <state x="211" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1586696538209" />
     <state x="81" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.800@0.23.1440.800" timestamp="1586093676044" />
     <state x="354" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586474493316">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="354" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.797@0.23.1440.797" timestamp="1586474493316" />
-    <state x="312" y="29" key="CommitChangelistDialog2" timestamp="1586690827204">
+    <state x="329" y="83" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586696001537">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="312" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1586690827204" />
+    <state x="329" y="83" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.797@0.23.1440.797" timestamp="1586696001537" />
+    <state x="277" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586694391525">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="277" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1586694391525" />
+    <state x="459" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586694393133">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="459" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.797@0.23.1440.797" timestamp="1586694393133" />
+    <state x="312" y="29" key="CommitChangelistDialog2" timestamp="1586695934279">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="312" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1586695934279" />
     <state x="144" y="92" key="DiffContextDialog" timestamp="1586182570041">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="144" y="92" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1586182570041" />
-    <state width="930" height="291" key="GridCell.Tab.0.bottom" timestamp="1586688449150">
+    <state x="498" y="167" key="FileChooserDialogImpl" timestamp="1586695993442">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586688449150" />
+    <state x="498" y="167" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1586695993442" />
+    <state width="1018" height="284" key="GridCell.Tab.0.bottom" timestamp="1586696584994">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1018" height="284" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586696584994" />
     <state width="1358" height="404" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="930" height="291" key="GridCell.Tab.0.center" timestamp="1586688449149">
+    <state width="1018" height="284" key="GridCell.Tab.0.center" timestamp="1586696584993">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586688449149" />
+    <state width="1018" height="284" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586696584993" />
     <state width="1358" height="404" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="930" height="291" key="GridCell.Tab.0.left" timestamp="1586688449148">
+    <state width="1018" height="284" key="GridCell.Tab.0.left" timestamp="1586696584992">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586688449148" />
+    <state width="1018" height="284" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586696584992" />
     <state width="1358" height="404" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1586094264821" />
-    <state width="930" height="291" key="GridCell.Tab.0.right" timestamp="1586688449149">
+    <state width="1018" height="284" key="GridCell.Tab.0.right" timestamp="1586696584993">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586688449149" />
+    <state width="1018" height="284" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586696584993" />
     <state width="1358" height="404" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="930" height="291" key="GridCell.Tab.1.bottom" timestamp="1586688449152">
+    <state width="1018" height="284" key="GridCell.Tab.1.bottom" timestamp="1586696584995">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586688449152" />
+    <state width="1018" height="284" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586696584995" />
     <state width="1358" height="404" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1586094264824" />
-    <state width="930" height="291" key="GridCell.Tab.1.center" timestamp="1586688449151">
+    <state width="1018" height="284" key="GridCell.Tab.1.center" timestamp="1586696584994">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1586688449151" />
+    <state width="1018" height="284" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1586696584994" />
     <state width="1358" height="404" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
-    <state width="930" height="291" key="GridCell.Tab.1.left" timestamp="1586688449150">
+    <state width="1018" height="284" key="GridCell.Tab.1.left" timestamp="1586696584994">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1586688449150" />
+    <state width="1018" height="284" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1586696584994" />
     <state width="1358" height="404" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
-    <state width="930" height="291" key="GridCell.Tab.1.right" timestamp="1586688449152">
+    <state width="1018" height="284" key="GridCell.Tab.1.right" timestamp="1586696584994">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="930" height="291" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1586688449152" />
+    <state width="1018" height="284" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1586696584994" />
     <state width="1358" height="404" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
-    <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1586010263627">
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1586691372864">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="258" y="83" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1586010263627" />
-    <state x="229" y="23" key="SettingsEditor" timestamp="1586179651521">
+    <state x="258" y="83" key="Maven.ArtifactSearchDialog/0.23.1440.797@0.23.1440.797" timestamp="1586691372864" />
+    <state x="454" y="133" key="RollbackChangesDialog" timestamp="1586691235131">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="229" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1586179651521" />
+    <state x="454" y="133" key="RollbackChangesDialog/0.23.1440.797@0.23.1440.797" timestamp="1586691235131" />
+    <state x="229" y="23" key="SettingsEditor" timestamp="1586691674357">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1586691674357" />
     <state x="320" y="163" key="Vcs.Push.Dialog.v2" timestamp="1586182616803">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -280,10 +386,14 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1586009437336" />
-    <state x="105" y="110" key="new project wizard" timestamp="1586688775882">
+    <state x="374" y="50" width="673" height="708" key="find.popup" timestamp="1586695994174">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="105" y="110" key="new project wizard/0.23.1440.797@0.23.1440.797" timestamp="1586688775882" />
+    <state x="374" y="50" width="673" height="708" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1586695994174" />
+    <state x="141" y="144" key="new project wizard" timestamp="1586696247781">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="141" y="144" key="new project wizard/0.23.1440.797@0.23.1440.797" timestamp="1586696247781" />
     <state x="385" y="147" key="search.everywhere.popup" timestamp="1586094287781">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
