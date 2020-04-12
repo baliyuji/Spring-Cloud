@@ -2,46 +2,54 @@
 # eureka.client.fetchRegistry ：表示是否从Eureka Server获取注册信息，默认为true。因为这是一个单点的Eureka Server，不需要同步其他的Eureka Server节点的数据，故而设为false。
 # eureka.client.serviceUrl.defaultZone ：设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8761/eureka ；多个地址可使用 , 分隔。
 spring:
-  profiles: server1
+  application:
+    name: ekuServer
+---
+spring:
+  profiles: eku1.com
 server:
   port: 8761
 eureka:
   instance:
-    hostname: localhost
+    hostname: euk1.com
+    #appname: euk1.com
+    nonSecurePort: ${server.port}
   client:
     #声明自己是服务端  # 表示是否注册自身到eureka服务器
-    registerWithEureka: true
+    #registerWithEureka: false
     # 是否从eureka上获取注册信息
-    fetchRegistry: true
+    #fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/
-
+      defaultZone: http://euk2.com:8762/eureka/,http://euk3.com:8763/eureka/
 ---
 spring:
- profiles: server2
+  profiles: eku2.com
 server:
   port: 8762
 eureka:
   instance:
-    hostname: localhost
+    hostname: euk2.com
+    #appname: euk2.com
+    nonSecurePort: ${server.port}
   client:
     #声明自己是服务端
-    registerWithEureka: true
-    fetchRegistry: true
+    #registerWithEureka: false
+    #fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8763/eureka/
-
+      defaultZone: http://euk1.com:8761/eureka/,http://euk3.com:8763/eureka/
 ---
 spring:
- profiles: server3
+  profiles: eku3.com
 server:
   port: 8763
 eureka:
   instance:
-    hostname: localhost
+    hostname: euk3.com
+    #appname: euk3.com
+    nonSecurePort: ${server.port}
   client:
     #声明自己是服务端
-    registerWithEureka: true
-    fetchRegistry: true
+    #registerWithEureka: false
+    #fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+      defaultZone: http://euk1.com:8761/eureka/,http://euk2.com:8762/eureka/
