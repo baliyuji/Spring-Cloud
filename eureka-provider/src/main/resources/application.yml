@@ -9,6 +9,8 @@ eureka:
     #registerWithEureka: false
     # 是否从eureka上获取注册信息
     #fetchRegistry: false
+    healthcheck:
+      enabled: true
     serviceUrl:
       defaultZone: http://server1:8761/eureka/
 

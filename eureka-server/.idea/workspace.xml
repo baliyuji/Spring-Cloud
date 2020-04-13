@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aced742-9f1d-468f-9941-83d736d5bae1" name="Default Changelist" comment="up">
-      <change afterPath="$PROJECT_DIR$/../.idea/IdeaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/wukeji/eurekaprovider/service/HealthStatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/wukeji/eurekaprovider/service/impl/HealthStatusServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/wukeji/eurekaprovider/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-provider/src/main/java/com/wukeji/eurekaprovider/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wukeji.eurekaserver.EurekaServerApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.wukeji.eurekaserver.EurekaServerApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.wukeji.eurekaserver.EurekaServerApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.wukeji.eurekaserver.EurekaServerApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,6 +87,7 @@
       <recent name="com.wukeji.eurekaprovider" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wukeji.eurekaprovider.service.impl" />
       <recent name="com.wukeji.eurekaconsumer.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +102,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Consumer">
+  <component name="RunManager" selected="Spring Boot.Provider">
     <configuration name="All in eureka-provider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eureka-provider" />
       <option name="PACKAGE_NAME" value="" />
@@ -193,7 +203,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -228,7 +238,10 @@
       <workItem from="1586442329060" duration="1516000" />
       <workItem from="1586472123659" duration="2649000" />
       <workItem from="1586687026993" duration="1551000" />
-      <workItem from="1586696129355" duration="747000" />
+      <workItem from="1586696129355" duration="1312000" />
+      <workItem from="1586697658596" duration="3000" />
+      <workItem from="1586781917925" duration="892000" />
+      <workItem from="1586783268239" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1586182580329</created>
@@ -251,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586696650270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1586697604340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586697604340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,11 +305,63 @@
             </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/wukeji/IdeaProjects/eureka-server" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/wukeji/IdeaProjects/eureka-provider" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="OPEN_TABS">
       <set>
         <option value="1" />
+        <option value="2" />
+        <option value="3" />
       </set>
     </option>
   </component>
@@ -299,19 +371,24 @@
     <MESSAGE value="第一次提交" />
     <MESSAGE value="添加服务提供者" />
     <MESSAGE value="添加服务消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加服务消费者" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="88" key="#Project_Structure" timestamp="1586182608827">
+    <state x="564" y="117" key="#Project_Structure" timestamp="1586786597657">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="88" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1586182608827" />
+    <state x="564" y="117" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1586786597657" />
     <state x="211" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586696538209">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="211" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1586696538209" />
     <state x="81" y="139" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.800@0.23.1440.800" timestamp="1586093676044" />
+    <state x="534" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1586782373855">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="534" y="120" key="#com.intellij.ide.util.MemberChooser/0.23.1440.797@0.23.1440.797" timestamp="1586782373855" />
     <state x="354" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586474493316">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -328,10 +405,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="459" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.797@0.23.1440.797" timestamp="1586694393133" />
-    <state x="312" y="29" key="CommitChangelistDialog2" timestamp="1586696646218">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="312" y="29" key="CommitChangelistDialog2" timestamp="1586697604140">
+      <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="312" y="29" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1586696646218" />
+    <state x="312" y="29" key="CommitChangelistDialog2/0.23.1440.803@0.23.1440.803" timestamp="1586697604140" />
     <state x="144" y="92" key="DiffContextDialog" timestamp="1586182570041">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -340,46 +418,54 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="498" y="167" key="FileChooserDialogImpl/0.23.1440.797@0.23.1440.797" timestamp="1586695993442" />
-    <state width="1018" height="235" key="GridCell.Tab.0.bottom" timestamp="1586696767102">
+    <state width="1018" height="270" key="GridCell.Tab.0.bottom" timestamp="1586783512263">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586696767102" />
+    <state width="1018" height="270" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586783512263" />
     <state width="1358" height="404" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="1018" height="235" key="GridCell.Tab.0.center" timestamp="1586696767101">
+    <state width="1018" height="235" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1586697651595" />
+    <state width="1018" height="270" key="GridCell.Tab.0.center" timestamp="1586783512262">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586696767101" />
+    <state width="1018" height="270" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1586783512262" />
     <state width="1358" height="404" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="1018" height="235" key="GridCell.Tab.0.left" timestamp="1586696767100">
+    <state width="1018" height="235" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1586697651593" />
+    <state width="1018" height="270" key="GridCell.Tab.0.left" timestamp="1586783512261">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586696767100" />
+    <state width="1018" height="270" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1586783512261" />
     <state width="1358" height="404" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1586094264821" />
-    <state width="1018" height="235" key="GridCell.Tab.0.right" timestamp="1586696767101">
+    <state width="1018" height="235" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1586697651592" />
+    <state width="1018" height="270" key="GridCell.Tab.0.right" timestamp="1586783512262">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586696767101" />
+    <state width="1018" height="270" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1586783512262" />
     <state width="1358" height="404" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1586094264822" />
-    <state width="1018" height="235" key="GridCell.Tab.1.bottom" timestamp="1586696767103">
+    <state width="1018" height="235" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1586697651594" />
+    <state width="1018" height="270" key="GridCell.Tab.1.bottom" timestamp="1586783512265">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586696767103" />
+    <state width="1018" height="270" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1586783512265" />
     <state width="1358" height="404" key="GridCell.Tab.1.bottom/0.23.1440.800@0.23.1440.800" timestamp="1586094264824" />
-    <state width="1018" height="235" key="GridCell.Tab.1.center" timestamp="1586696767102">
+    <state width="1018" height="235" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1586697651598" />
+    <state width="1018" height="270" key="GridCell.Tab.1.center" timestamp="1586783512264">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1586696767102" />
+    <state width="1018" height="270" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1586783512264" />
     <state width="1358" height="404" key="GridCell.Tab.1.center/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
-    <state width="1018" height="235" key="GridCell.Tab.1.left" timestamp="1586696767102">
+    <state width="1018" height="235" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1586697651597" />
+    <state width="1018" height="270" key="GridCell.Tab.1.left" timestamp="1586783512263">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1586696767102" />
+    <state width="1018" height="270" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1586783512263" />
     <state width="1358" height="404" key="GridCell.Tab.1.left/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
-    <state width="1018" height="235" key="GridCell.Tab.1.right" timestamp="1586696767102">
+    <state width="1018" height="235" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1586697651596" />
+    <state width="1018" height="270" key="GridCell.Tab.1.right" timestamp="1586783512264">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1018" height="235" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1586696767102" />
+    <state width="1018" height="270" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1586783512264" />
     <state width="1358" height="404" key="GridCell.Tab.1.right/0.23.1440.800@0.23.1440.800" timestamp="1586094264823" />
+    <state width="1018" height="235" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1586697651597" />
     <state x="258" y="83" key="Maven.ArtifactSearchDialog" timestamp="1586691372864">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
