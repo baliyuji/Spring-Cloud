@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: provider
+---
+spring:
+  profiles: provider2
+server:
+  port: 8091
+eureka:
+  client:
+    #声明自己是服务端  # 表示是否注册自身到eureka服务器
+    #registerWithEureka: false
+    # 是否从eureka上获取注册信息
+    #fetchRegistry: false
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://server1:8761/eureka/
+

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/../eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/../eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../eureka-provider/eureka-provider.iml" filepath="$PROJECT_DIR$/../eureka-provider/eureka-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user-consumer/user-consumer.iml" filepath="$PROJECT_DIR$/../user-consumer/user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user-provider/user-provider.iml" filepath="$PROJECT_DIR$/../user-provider/user-provider.iml" />
     </modules>
   </component>
 </project>
