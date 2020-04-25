@@ -1,10 +1,6 @@
-
 spring:
   application:
     name: userprovider
----
-spring:
-  profiles: userprovider
 server:
   port: 8083
 eureka:
@@ -13,8 +9,8 @@ eureka:
     #registerWithEureka: false
     # 是否从eureka上获取注册信息
     #fetchRegistry: false
-    healthcheck:
-      enabled: true
+    #healthcheck:
+    #  enabled: true
     serviceUrl:
       defaultZone: http://server1:8761/eureka/
 
