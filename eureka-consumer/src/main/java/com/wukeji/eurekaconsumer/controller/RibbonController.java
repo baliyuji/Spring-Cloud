@@ -24,5 +24,23 @@ public class RibbonController {
         return  respStr;
     }
 
+    @GetMapping("/client1")
+    public Object client1(){
+        ServiceInstance instance =  lb.choose("provider");
+        String url = "http://" + instance.getHost() + ":"+ instance.getPort() + "/getHi";
+        String respStr = restTemplate.getForObject(url,String.class);
+        System.out.println(respStr);
+        return  respStr;
+    }
+
+    @GetMapping("/client2")
+    public Object client2(){
+        //自动处理url
+        String url = "http://provider/getHi";
+        String respStr = restTemplate.getForObject(url,String.class);
+        System.out.println(respStr);
+        return  respStr;
+    }
+
 
 }

@@ -11,4 +11,5 @@ eureka:
     #fetchRegistry: false
     serviceUrl:
       defaultZone: http://server1:8761/eureka/
-
+ribbon:
+  NFLoadBalancerRuleClassName：com.netflix.loadbalancer.RandomRule
